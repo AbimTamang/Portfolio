@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abim Tamang | Creative Developer & Designer</title>
+    <meta name="description" content="Official portfolio of Abim Tamang - A modern, high-performance portfolio showcasing creative development and design excellence.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons for modern UI -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <span class="logo-text">Abim <span>Tamang</span></span>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Abim <span>Tamang.</span></a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="sub-headline">Open to learning & collaboration</h2>
+                    <h1 class="headline">Building <span>Skills</span>, One Line at a Time.</h1>
+                    <p class="description">Beginner web developer passionate about HTML, CSS, JavaScript and React. I'm on a journey to grow, build, and create — one project at a time.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="blob-container">
+                    <div class="blob"></div>
+                    <img src="hero.png" alt="Creative Visual" class="hero-img">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow">The Story</span>
+                    <h2 class="section-title">Learning by building.</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-container">
+                        <!-- User will replace 'my-photo.png' with their actual image -->
+                        <img src="my-photo.jpg" alt="Abim Tamang" class="profile-image">
+                    </div>
+                    <div class="about-text">
+                        <p>I'm Abim Tamang — a self-taught beginner web developer who fell in love with coding and never looked back. I'm currently building my skills in HTML, CSS, JavaScript, React, Node.js and Express, and I enjoy turning ideas into real things on the web. Still learning every day, but growing fast.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Year Learning</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Project Built</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">∞</span>
+                                <span class="stat-label">Things to Learn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-card glass">
+                        <h3>Core Stack</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="current-focus">
+                            <h4>Current Focus</h4>
+                            <p>Deep diving into React Hooks and API Integration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="eyebrow">Portfolio</span>
+                    <h2 class="section-title">Selected Works</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Projects will be dynamically populated or hardcoded with premium feel -->
+                    <div class="project-card reveal">
+                        <div class="project-image">
+                            <img src="project1.png" alt="Personal Portfolio">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i data-lucide="external-link"></i></a>
+                                    <a href="https://github.com/AbimTamang" target="_blank"><i data-lucide="github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Modern Portfolio</h3>
+                            <p>My first professional portfolio project built with HTML, CSS, and Vite.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-image">
+                            <img src="project2.png" alt="Expense Tracker">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i data-lucide="external-link"></i></a>
+                                    <a href="https://github.com/AbimTamang" target="_blank"><i data-lucide="github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Expense Tracker</h3>
+                            <p>A full-stack application to track daily expenses, categorize transactions, and view spending patterns.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Express</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-card glass reveal">
+                    <div class="contact-info">
+                        <h2>Got a project idea?</h2>
+                        <p>I'm always looking for opportunities to collaborate, contribute, and keep improving. Whether it's a small project or feedback on my work — I'd love to hear from you!</p>
+                        <ul class="contact-list">
+                            <li><i data-lucide="mail"></i> abimtamang19@gmail.com</li>
+                            <li><i data-lucide="map-pin"></i> Kathmandu, Nepal</li>
+                        </ul>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Abim Tamang. Crafted with passion.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i data-lucide="twitter"></i></a>
+                    <a href="https://github.com/AbimTamang" target="_blank"><i data-lucide="github"></i></a>
+                    <a href="#" target="_blank"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
