@@ -3,8 +3,3 @@ node_modules/
 dist/
 build/
 .env
-*.jpg
-*.jpeg
-*.png
-*.svg
-*.gif
